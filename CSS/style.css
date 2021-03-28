@@ -1,0 +1,157 @@
+body{
+    border: 0px;
+    padding: 0px;
+}
+main{
+    border: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #4BE33D;
+ }
+
+.container .row-1{
+   width: 100%;
+   height: 40vh;
+   display: flex;
+   box-sizing: border-box;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+ }
+
+ .container .row-1 .col{
+   
+     width: 23%;
+     height: 30vh;
+     padding: 15px;
+     box-sizing: border-box;
+     display: flex;
+     flex-direction: column;
+    
+ }
+
+.container .row-1 .col div{
+    background-color:azure;
+    margin-right: 10px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    padding: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    
+}
+
+.container .row-1 .col div svg{
+    color: rgb(41, 39, 39);
+    width: 30px;
+    height: 30px;
+}
+
+.container .row-1 .col h2{
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+    
+.container .row-1 .col p{
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 0px;
+  }
+
+  .container .row-1 .col a{
+    color: white;
+    font-size: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0 auto;
+  }
+
+
+.container .row-2{
+    width: 100%;
+    height: 60vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+ }
+
+ .container .row-2 .col-2{
+    background-color: #329629; 
+    width: 70%;
+    height: 50vh;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    padding: 41px;
+}
+
+ .container .row-2 .col-2 h3{
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 800;
+    
+ }
+
+
+   .container .row-2 .col-2 h2{
+    color: #53E690;
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 800;
+    margin-top: -30px;
+   
+}
+
+
+.container .row-2 .col-2 p{
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+  
+ }
+
+ .container .row-2 .col-2 button{
+     border: none;
+     border-radius: 5px;
+     width: 30%;
+     padding: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1.2rem;
+     font-weight: 600;
+     background-color: #73E32D;
+     color: white;
+     outline: none;
+     margin: 20px auto;
+ }
+   
+ .container .row-2 .col-2 button:hover{
+    background-color: white;
+    color: #73E32D;
+}
+  
